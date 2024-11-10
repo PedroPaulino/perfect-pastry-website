@@ -9,3 +9,19 @@ html {
     scroll-behavior: smooth;
 }
 
+/*========= HEADER & NAV =======*/
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: lightgreen;
+}
+
+.nav{
+    display: none;
+}
+
+/*========= MAIN =======*/
+.main{
+    background-color: lightcoral;
+}
