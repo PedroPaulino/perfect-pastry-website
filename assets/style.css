@@ -11,6 +11,8 @@ html {
 
 /*========= HEADER & NAV =======*/
 .header{
+    width: 100%; /* 1 */
+    position: fixed; /* 1 */
     display: flex;
     justify-content: space-between;
     padding: 20px;
