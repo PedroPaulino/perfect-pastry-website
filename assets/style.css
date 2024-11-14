@@ -12,20 +12,40 @@ html {
 /*========= HEADER & NAV =======*/
 .header{
     width: 100%; /* 1 */
+    height: 100px;
     position: fixed; /* 1 */
+    top: 0;
     display: flex;
     justify-content: space-between;
-    padding: 20px;
+    align-items: center;
     background-color: lightgreen;
+   
+}
+.nav-container,
+.nav-btn-open{
+    padding: 20px;
 }
 
+.logo{
+    width: 56px;
+}
 .nav{
     display: none;
 }
 
+.nav-btn-open > i{
+    line-height: 5rem;
+    font-size: 2rem;
+  
+}
+
+
+
 /*========= MAIN =======*/
 .main{
     background-color: lightcoral;
+    margin-top: 100px;
+    
 }
 
 /*-------- HOME --------*/
