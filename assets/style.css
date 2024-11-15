@@ -49,6 +49,11 @@ html {
 }
 
 /*-------- HOME --------*/
-.home{
-    
+.slidershow_data{
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+}
+.slide_card{
+    display: none;
 }
