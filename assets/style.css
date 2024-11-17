@@ -50,10 +50,19 @@ html {
 
 /*-------- HOME --------*/
 .slidershow_data{
-    max-width: 1000px;
-    position: relative;
-    margin: auto;
+    background-color: lightgrey ;
 }
-.slide_card{
-    display: none;
+
+.dot{
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+.slide_dots{
+    background-color: lightgreen;
 }
