@@ -21,6 +21,18 @@ html {
     background-color: lightgreen;
    
 }
+
+.nav-container{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.nav-title{
+    line-height: 3.8rem;
+    margin-right:  20%;
+}
+
 .nav-container,
 .nav-btn-open{
     padding: 20px;
