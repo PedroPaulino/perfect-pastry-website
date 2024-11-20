@@ -9,6 +9,30 @@ html {
     scroll-behavior: smooth;
 }
 /*========= REUSABLE =======*/
+.card{
+    padding: 0 20px;
+}
+
+.card_title{
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+}
+
+.card_text{
+    padding: 20px 0px 40px;
+}
+
+.card_text > h2 {
+    font-size: 1.8rem;
+}
+
+.card_text > p {
+    font-size: 1.2rem;
+    margin-top: 10px;
+}
+
+
 .card_img{
     overflow: hidden;
 }
@@ -19,6 +43,8 @@ html {
 .photo:hover{
     transform: scale(1.1);
 }
+
+
 
 
 /*========= HEADER & NAV =======*/
@@ -124,26 +150,6 @@ html {
   }
 
 /*-------- RECIPE --------*/
-.recipe_title{
-    display: flex;
-    justify-content: center;
-    padding: 40px;
-}
-
-.recipe_card{
-    padding: 0 20px;
-}
 
 
-.recipe_text{
-    padding: 20px 0px 40px;
-}
 
-.recipe_text > h2 {
-    font-size: 1.8rem;
-}
-
-.recipe_text > p {
-    font-size: 1.2rem;
-    margin-top: 10px;
-}
