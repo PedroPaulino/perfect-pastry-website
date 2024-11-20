@@ -8,6 +8,18 @@
 html {
     scroll-behavior: smooth;
 }
+/*========= REUSABLE =======*/
+.card_img{
+    overflow: hidden;
+}
+
+.photo{
+    transition: transform .5s ease;
+}
+.photo:hover{
+    transform: scale(1.1);
+}
+
 
 /*========= HEADER & NAV =======*/
 .header{
@@ -110,3 +122,28 @@ html {
 .active, .dot:hover {
     background-color: #717171;
   }
+
+/*-------- RECIPE --------*/
+.recipe_title{
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+}
+
+.recipe_card{
+    padding: 0 20px;
+}
+
+
+.recipe_text{
+    padding: 20px 0px 40px;
+}
+
+.recipe_text > h2 {
+    font-size: 1.8rem;
+}
+
+.recipe_text > p {
+    font-size: 1.2rem;
+    margin-top: 10px;
+}
