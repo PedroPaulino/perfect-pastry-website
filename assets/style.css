@@ -150,6 +150,21 @@ html {
   }
 
 /*-------- RECIPE --------*/
+.recipe_btn{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
 
+.recipe_btn > a {
+    text-decoration: none;
+    font-size: 1.5rem;
+    padding: 15px 30px;
+    background-color: lightcyan;
+    border-radius: 10px;
+}
 
+.recipe_btn > a:hover{
+    box-shadow: 0px 2px 10px 2px lightslategray;
+}
 
