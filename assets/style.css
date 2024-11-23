@@ -7,6 +7,7 @@
 
 html {
     scroll-behavior: smooth;
+    background-color: #ca4141f1;
 }
 /*========= REUSABLE =======*/
 .card{
@@ -14,22 +15,24 @@ html {
 }
 
 .card_title{
+    font-size: 2rem;
     display: flex;
     justify-content: center;
     padding: 40px;
 }
 
 .card_text{
-    padding: 20px 0px 40px;
+    padding: 20px 0px 60px;
 }
 
-.card_text > h2 {
-    font-size: 1.8rem;
+.card > h2 {
+    font-size: 2rem;
+    padding-bottom: 10px;
 }
 
 .card_text > p {
-    font-size: 1.2rem;
-    margin-top: 10px;
+    font-size: 1.6rem;
+    margin-top: 5px;
 }
 
 
@@ -93,10 +96,11 @@ html {
 
 /*========= MAIN =======*/
 .main{
-    background-color: lightcoral;
-    margin-top: 100px;
-    
+   margin-top: 100px;
+   background-color: #eeeeee;
 }
+
+
 
 /*-------- HOME --------*/
 .prev, 
@@ -160,11 +164,11 @@ html {
     text-decoration: none;
     font-size: 1.5rem;
     padding: 15px 30px;
-    background-color: lightcyan;
+    background-color: lightgreen;
     border-radius: 10px;
+    box-shadow: 0px 0px 10px 2px lightslategray;
+    color: darkgreen
 }
 
-.recipe_btn > a:hover{
-    box-shadow: 0px 2px 10px 2px lightslategray;
-}
+
 
