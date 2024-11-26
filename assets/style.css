@@ -7,7 +7,7 @@
 
 html {
     scroll-behavior: smooth;
-    background-color: #ca4141f1;
+    background-color: #eeeeee;
 }
 /*========= REUSABLE =======*/
 .card{
@@ -48,8 +48,13 @@ html {
     transform: scale(1.1);
 }
 
-
-
+ul {
+    list-style-type: none;
+    
+}
+a{
+    text-decoration: none;
+}
 
 /*========= HEADER & NAV =======*/
 .header{
@@ -98,7 +103,7 @@ html {
 /*========= MAIN =======*/
 .main{
    margin-top: 100px;
-   background-color: #eeeeee;
+  
 }
 
 
@@ -185,4 +190,40 @@ html {
 
 }
 
+/*-------- FOOTER --------*/
+.footer{
+    background-color: lightgray;
+}
+.footer_data{
+    display: flex;
+    flex-direction: column;
+    padding-top:  40px;
 
+}
+
+.footer_data > * h2 {
+    text-align: center;
+}
+
+.footer_data > * ul {
+    font-size: 1.4rem;
+
+}
+
+.card > ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer_data > * ul > * a {
+    display: flex;
+    justify-content: center;
+    width: 300px;
+    background-color: #717171;
+    margin: 20px 0px;
+    padding: 20px;
+    border-radius: 20px;
+    color: white;
+    
+}
