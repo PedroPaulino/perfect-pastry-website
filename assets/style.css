@@ -195,35 +195,19 @@ a{
     background-color: lightgray;
 }
 .footer_data{
-    display: flex;
-    flex-direction: column;
     padding-top:  40px;
 
 }
-
-.footer_data > * h2 {
-    text-align: center;
-}
-
-.footer_data > * ul {
-    font-size: 1.4rem;
-
-}
-
-.card > ul {
+.social_medias{
     display: flex;
-    flex-direction: column;
-    align-items: center;
+    justify-content: space-around
 }
-
-.footer_data > * ul > * a {
-    display: flex;
-    justify-content: center;
-    width: 300px;
-    background-color: #717171;
-    margin: 20px 0px;
-    padding: 20px;
-    border-radius: 20px;
-    color: white;
+.social_link{
+    font-size: 3.5rem;
+}
+.opening_table{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    font-size: 1.6rem;
     
 }
