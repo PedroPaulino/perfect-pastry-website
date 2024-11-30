@@ -1,4 +1,17 @@
+/* MENU */
+const menu = document.getElementById("menu")
 
+const openMenu = () => {
+    menu.className = menu.className.replace("nav-close"," nav-open")
+    document.body.style.overflow = 'hidden';
+    
+}
+
+const closeMenu = () => {
+    menu.className = menu.className.replace("nav-open"," nav-close")
+    document.body.style.overflow = 'auto';
+}
+/* SLIDERSHOW */
 const plusSlides = (n) => {
     showSlides(slideIndex += n);
 }
