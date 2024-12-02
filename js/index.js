@@ -1,13 +1,26 @@
 /* MENU */
 const menu = document.getElementById("menu")
+const slideDots = document.getElementById("slide_dots")
+const prev = document.getElementById("prev")
+const next = document.getElementById("next")
 
 const openMenu = () => {
+
+
+    slideDots.classList.add("hide")
+    prev.classList.add("hide")
+    next.classList.add("hide")
+
     menu.className = menu.className.replace("nav-close"," nav-open")
     document.body.style.overflow = 'hidden';
     
 }
 
 const closeMenu = () => {
+    slideDots.classList.remove("hide")
+    prev.classList.remove("hide")
+    next.classList.remove("hide")
+
     menu.className = menu.className.replace("nav-open"," nav-close")
     document.body.style.overflow = 'auto';
 }
